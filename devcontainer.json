@@ -1,0 +1,11 @@
+{
+  "name": "FastPlace 1.8.9 Forge",
+  "image": "mcr.microsoft.com/devcontainers/java:1-8-bullseye",
+  "remoteUser": "vscode",
+  "postCreateCommand": "chmod +x build.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": ["vscjava.vscode-java-pack"]
+    }
+  }
+}
